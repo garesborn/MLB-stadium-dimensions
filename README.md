@@ -56,4 +56,4 @@ Once this data was compiled into 3 arrays, I converted the data from arrays R an
 ![Petco Park](https://user-images.githubusercontent.com/65193347/107466913-d15cf880-6b32-11eb-9fa3-9cec1916c1eb.png)
 ![PNC Park](https://user-images.githubusercontent.com/65193347/107466915-d15cf880-6b32-11eb-9131-f0b28ba8781b.png)
 
-
+Conclusion: The Yankee Stadium 8 foot tall 315 foot deep RF short porch is much easier to hit a ball over than the Green Monster (310 feet deep, 37 feet tall).
