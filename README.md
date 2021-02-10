@@ -17,6 +17,11 @@ Using data from [this article written by Sam Vickars](https://thedataface.com/20
 
 ![mlb_outfield_wall_height](https://user-images.githubusercontent.com/65193347/107464130-94dace00-6b2d-11eb-8a76-e4d4dd9d1480.png)
 
+With a plot of each outfield wall's dimensions and heights, I converted the data for each park into 3 arrays of shape 901x901. 
+First, was a list P (for greek letter phi) of 901 evenly spaced angles between 0 and π/2 repeated 901 times.
+Next, was a list R of 901 values evenly spaced from 0 to the radial distance of the outfield wall at each of the 901 evenly spaced angles between 0 and π/2.
+Lastly, was a list z of 901 values evenly spaced from 0 to the height of the outfield wall at each of the 901 evenly spaced angles between 0 and π/2.
+Once this data was compiled into 3 arrays, I converted the data from arrays R and P from polar to cartesian coordinates. Then, I used matplotlib's plot_surface function to plot the resulatant outfield wall surfaces you see below 
 
 ![Progressive Field](https://user-images.githubusercontent.com/65193347/107466879-ce620800-6b32-11eb-8b42-c926bf6c9455.png)
 ![RingCentral Coliseum](https://user-images.githubusercontent.com/65193347/107466880-cefa9e80-6b32-11eb-82bf-360e5b54705b.png)
