@@ -25,7 +25,7 @@ Next, was a list R of 901 values evenly spaced from 0 to the radial distance of 
 
 Lastly, was a list z of 901 values evenly spaced from 0 to the height of the outfield wall at each of the 901 evenly spaced angles between 0 and π/2.
 
-Once this data was compiled into 3 arrays, I converted the data from arrays R and P from polar to cartesian coordinates. Then, I used matplotlib's plot_surface function to plot the resulatant outfield wall surfaces you see below 
+Once this data was compiled into 3 arrays, I converted the data from arrays R and P from polar to cartesian coordinates. Then, I used [matplotlib's plot_surface](https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html#surface-plots) function to plot the resulatant outfield wall surfaces you see below 
 
 ![Progressive Field](https://user-images.githubusercontent.com/65193347/107466879-ce620800-6b32-11eb-8b42-c926bf6c9455.png)
 ![RingCentral Coliseum](https://user-images.githubusercontent.com/65193347/107466880-cefa9e80-6b32-11eb-82bf-360e5b54705b.png)
