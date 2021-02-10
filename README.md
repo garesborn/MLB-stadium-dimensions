@@ -1,7 +1,7 @@
 # MLB-stadium-dimensions
 Modeling the dimensions of MLB stadiums using matplotlib
 
-[Here](https://community.fangraphs.com/complete-outfield-dimensions/) is a list of piecewise functions created by Fangraphs user Andrew Fox where each subfunction describes the distance of the outfield wall of an mlb stadium from an angle θ1 to another angle θ2 relative to the left field foul pole.
+[Here](https://community.fangraphs.com/complete-outfield-dimensions/) is a list of piecewise functions created by Fangraphs user Andrew Fox where each subfunction describes the distance of the outfield wall of an mlb stadium from an angle θ1 to another angle θ2 relative to the leftfield foul pole.
 
 There are 3 different formats to these subfunctions which are as follows:
 
