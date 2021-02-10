@@ -28,59 +28,87 @@ Lastly, was a list z of 901 values evenly spaced from 0 to the height of the out
 Once this data was compiled into 3 arrays, I converted the data from arrays R and P from polar to cartesian coordinates. Then, I used [matplotlib's plot_surface](https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html#surface-plots) function to plot the resulatant outfield wall surfaces you see below 
 
 ARZ
+
 ![Chase Field](https://user-images.githubusercontent.com/65193347/107466893-cf933500-6b32-11eb-8393-3f60bd1e9e70.png)
+
 BAL
 ![Camden Yards](https://user-images.githubusercontent.com/65193347/107466892-cf933500-6b32-11eb-8ad9-c88122b699a8.png)
+
 BOS
 ![Fenway Park](https://user-images.githubusercontent.com/65193347/107466902-d02bcb80-6b32-11eb-8355-d4f37914a7fb.png)
+
 CHC
 ![Wrigley Field](https://user-images.githubusercontent.com/65193347/107466888-cf933500-6b32-11eb-836b-fca29ff1de0d.png)
+
 CWS
 ![US Cellular Field](https://user-images.githubusercontent.com/65193347/107466887-cefa9e80-6b32-11eb-9bc8-076c59c8e317.png)
+
 CIN
 ![Great American Ballpark](https://user-images.githubusercontent.com/65193347/107466903-d0c46200-6b32-11eb-8ce5-a9b03232a0d3.png)
+
 CLE
 ![Progressive Field](https://user-images.githubusercontent.com/65193347/107466879-ce620800-6b32-11eb-8b42-c926bf6c9455.png)
+
 COL
 ![Coors Field](https://user-images.githubusercontent.com/65193347/107466898-d02bcb80-6b32-11eb-832e-6c883e0fde32.png)
+
 DET
 ![Comerica Park](https://user-images.githubusercontent.com/65193347/107466897-d02bcb80-6b32-11eb-9a79-ee57fbaaafb0.png)
+
 HOU
 ![Minute Maid Park](https://user-images.githubusercontent.com/65193347/107466908-d15cf880-6b32-11eb-8e25-5da99111461f.png)
+
 KC
 ![Kauffman Stadium](https://user-images.githubusercontent.com/65193347/107466904-d0c46200-6b32-11eb-927a-034b9a5a6c4d.png)
+
 LAA
 ![Angel Stadium](https://user-images.githubusercontent.com/65193347/107466890-cf933500-6b32-11eb-9c9d-8e7e49aa58bc.png)
+
 LAD
 ![Dodger Stadium](https://user-images.githubusercontent.com/65193347/107466899-d02bcb80-6b32-11eb-82ef-e584c801fd7b.png)
+
 MIA
 ![Marlins Park](https://user-images.githubusercontent.com/65193347/107466905-d0c46200-6b32-11eb-8920-2996ac14963d.png)
+
 MIL
 ![Miller Park](https://user-images.githubusercontent.com/65193347/107466907-d0c46200-6b32-11eb-98e5-b4343768a6ba.png)
+
 MIN
 ![Target Field](https://user-images.githubusercontent.com/65193347/107466884-cefa9e80-6b32-11eb-8374-38be8b6fa9cd.png)
+
 NYM
 ![Citi Field](https://user-images.githubusercontent.com/65193347/107466895-d02bcb80-6b32-11eb-8e1c-44dfd6ff0322.png)
+
 NYY
 ![Yankee Stadium](https://user-images.githubusercontent.com/65193347/107466889-cf933500-6b32-11eb-9e66-f7028837754a.png)
+
 OAK
 ![RingCentral Coliseum](https://user-images.githubusercontent.com/65193347/107466880-cefa9e80-6b32-11eb-82bf-360e5b54705b.png)
+
 PHI
 ![Citizens Bank Park](https://user-images.githubusercontent.com/65193347/107466896-d02bcb80-6b32-11eb-994a-a584623e0338.png)
+
 PIT
 ![PNC Park](https://user-images.githubusercontent.com/65193347/107466915-d15cf880-6b32-11eb-9131-f0b28ba8781b.png)
+
 SDP
 ![Petco Park](https://user-images.githubusercontent.com/65193347/107466913-d15cf880-6b32-11eb-9fa3-9cec1916c1eb.png)
+
 SFG
 ![Oracle Park](https://user-images.githubusercontent.com/65193347/107466912-d15cf880-6b32-11eb-8721-a687d9cbc64f.png)
+
 SEA
 ![Safeco Field](https://user-images.githubusercontent.com/65193347/107466883-cefa9e80-6b32-11eb-900d-e1d716ac0d7c.png)
+
 STL
 ![Busch Stadium](https://user-images.githubusercontent.com/65193347/107466891-cf933500-6b32-11eb-8058-d2842e4ef765.png)
+
 TB
 ![Tropicana Field](https://user-images.githubusercontent.com/65193347/107466885-cefa9e80-6b32-11eb-9187-3a61ada7c4f9.png)
+
 TOR
 ![Rogers Centre](https://user-images.githubusercontent.com/65193347/107466882-cefa9e80-6b32-11eb-9d32-b1b803916a5e.png)
+
 WSN
 ![Nationals Park](https://user-images.githubusercontent.com/65193347/107466911-d15cf880-6b32-11eb-8b1a-5f77831a8ef7.png)
 
