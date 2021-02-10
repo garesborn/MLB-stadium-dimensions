@@ -17,7 +17,7 @@ Using data from [this article written by Sam Vickars](https://thedataface.com/20
 
 ![mlb_outfield_wall_height](https://user-images.githubusercontent.com/65193347/107464130-94dace00-6b2d-11eb-8a76-e4d4dd9d1480.png)
 
-With a plot of each outfield wall's dimensions and heights, I converted the data for each park into 3 arrays of shape 901x901. 
+With a plot of each outfield wall's dimensions and heights, I converted the data for each park into 3 arrays of shape 901x901. (Please see code for more information)
 
 First, was a list P (for greek letter phi) of 901 evenly spaced angles between 0 and π/2 repeated 901 times.
 
