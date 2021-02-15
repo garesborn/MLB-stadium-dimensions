@@ -17,7 +17,7 @@ Using data from [Andrew Clem's extensive database of stadium data](http://www.an
 
 ![mlb_outfield_wall_height](https://user-images.githubusercontent.com/65193347/107464130-94dace00-6b2d-11eb-8a76-e4d4dd9d1480.png)
 
-Using [matplotlib's plot_surface](https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html#surface-plots) function, I was able to plot these wall distances and heights into 3D surfaces. This requires 3 arrays of shape 901x901 to represent each of the lower and upper bounds of each dimension. (Please see code for more information)
+Using [matplotlib's plot_surface](https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html#surface-plots) function, I was able to convert these wall distances and heights into 3D surfaces. This requires 3 arrays of shape 901x901 to represent each of the lower and upper bounds of each dimension. (Please see code for more information)
 
 First, was a list P (for greek letter phi) of 901 evenly spaced angles between 0 and π/2 repeated 901 times.
 
