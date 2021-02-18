@@ -351,10 +351,10 @@ elif plot_type == 'hei':
     plt.xlabel('Distance from Centerfield (degrees)')
     plt.ylabel('Height (ft)')
 
-
+# Modeling each stadium in 3D
 for i in df.index:
     dim = dim_plot(df['distance'][i], df['dform'][i], df['stadium'][i])    
-    #hei = height_plot(df['height'][i], df['stadium'][i])
-    #fig = model(dim, hei, df['stadium'][i])
+    hei = height_plot(df['height'][i], df['stadium'][i])
+    fig = model(dim, hei, df['stadium'][i])
     
 
