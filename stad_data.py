@@ -7,6 +7,45 @@ Created on Wed Feb 17 16:48:42 2021
 import pandas as pd
 import sqlite3 as sql
 
+# =============================================================================
+#
+#                           WALL DISTANCE DIMENSIONS
+#
+#       These piecewise functions are described as a list of tuples where 
+#       each tuple represents a subfunction of the overall piecewise.
+#       there are 3 different formats of piecewise subfunctions used. 
+#
+#       See: https://github.com/garesborn/MLB-stadium-dimensions for a cleaner
+#       record of these equations (NOTE: c values represent constants)
+#
+#  0: format is always c0/(sin(theta)-c1*cos(theta))
+#  1: format is combo of format 0 and
+#
+#       c0*cos(theta - c1)-c2*cos(theta-c3)/d+
+#       c7*sqrt(d - c8*sin^2(theta-c2))/d
+#       where d = (c4-c5*cos(2*theta-c6))
+#
+#  2: format is combo of 0 and c0/sin(theta) or c0/cos(theta) or c0
+#
+#  These sub-equations are represented in tuples in the following formats:
+#
+#  0: [c0, c1, theta_min, theta_max]
+#  1: [[c0,c1,c2,c3,c4,c5,c6],[c7,c8], theta_min, theta_max] formatted based on first and second term of eq
+#  2: [c0, str, theta_min, theta_max] where str is one of 'sin', 'cos', or 'con'
+# =============================================================================
+# =============================================================================
+#
+#                       WALL HEIGHT DIMENSIONS
+#
+# There are 2 types of Wall height subequations, constant height and linearly sloped.
+#
+# These sub equations are represented in tuples in the following format:
+#
+#   [h, b, theta_min, theta_max] 
+#   where h is the height at theta_min and b is 0 for constant height
+#   or 1 for sloped
+# =============================================================================
+
 dARZ = ((-389.4194,-1.1624467,0,4.9),(423.5471,1.085346,4.9,6.6),(6211.3885,17.49789,6.6,31.7),#(427.9667,.630552,31.7,32.9),(1197.8397,2.9286229,32.9,34),
        (559.10919,1.0073058,31.7,38.9),(-91.557622,-1.10398598,38.9,39.1),
        (571.92441,1.0070058,39.1,50.5),(114.59269,-.76826977,50.5,50.8),(557.962,1.0031979,50.8,57.7),#(403.8808,.3213439,55.7,56.7),(775.17044,1.924966,56.7,57.7),
